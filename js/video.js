@@ -12,13 +12,12 @@ function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
         height: '1080',
         width: '1920',
-        videoId: 'qFvkEmYY8L8',
+        videoId: 'UPJmXbZhLHY',
         playerVars: {
-            playlist: 'qFvkEmYY8L8',
+            playlist: 'UPJmXbZhLHY',
             autoplay: 1,
             controls: 0,
             disablekb: 1,
-            hl: 'ru-ru',
             hd: 1,
             vq: 'hd1080',
             loop: 1,
