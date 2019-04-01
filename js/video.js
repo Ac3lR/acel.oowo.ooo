@@ -35,6 +35,6 @@ function onYouTubePlayerAPIReady() {
 }
 
 function onPlayerReady(event) {
-    //player.playVideo();
+    player.playVideo();
     player.setVolume(12);
 }
