@@ -12,10 +12,10 @@ function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
         height: '1080',
         width: '1920',
-        videoId: 'UPJmXbZhLHY',
+        videoId: 'HAIDqt2aUek',
         playerVars: {
-            playlist: 'UPJmXbZhLHY',
-            autoplay: 1,
+            playlist: 'HAIDqt2aUek',
+            //autoplay: 1,
             controls: 0,
             disablekb: 1,
             hd: 1,
@@ -36,5 +36,6 @@ function onYouTubePlayerAPIReady() {
 }
 
 function onPlayerReady(event) {
+    player.playVideo();
     player.setVolume(12);
 }
