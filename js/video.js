@@ -14,8 +14,7 @@ function onYouTubePlayerAPIReady() {
         width: '1920',
         videoId: 'HAIDqt2aUek',
         playerVars: {
-            playlist: 'HAIDqt2aUek',
-            //autoplay: 1,
+            autoplay: 1,
             controls: 0,
             disablekb: 1,
             hd: 1,
@@ -36,6 +35,6 @@ function onYouTubePlayerAPIReady() {
 }
 
 function onPlayerReady(event) {
-    player.playVideo();
+    //player.playVideo();
     player.setVolume(12);
 }
